@@ -19,6 +19,10 @@ export default defineConfig({
     sidebar: {
       '/components/': [
         { text: 'button', link: '/components/button/' },
+        { text: 'input', link: '/components/input/' },
+      ],
+      '/utils/': [
+        { text: '类名生成器', link: '/utils/gen-class' },
       ],
     },
 
@@ -36,5 +40,7 @@ export default defineConfig({
   rewrites: {
     'docs/(.*)': '(.*)',
     'packages/tov-ui/src/:comp/(.*)': 'components/:comp/(.*)', // 动态包映射
+    'packages/tov-ui/src/(.*)': 'components/(.*)',
+    'packages/utils/src/(.*)': 'utils/(.*)',
   },
 })
