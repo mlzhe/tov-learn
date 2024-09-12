@@ -1,7 +1,8 @@
-import type { App } from 'vue'
+import type { App, Plugin } from 'vue'
+import * as pkg from '../package.json'
 import * as components from './components'
 
-console.log(Object.entries(components))
+export * from './components'
 
 export default {
   install(app: App) {
@@ -10,7 +11,8 @@ export default {
         app.use(comp as any)
     })
   },
-}
+  version: pkg.version,
+} as Plugin
 
 /**
  * [

@@ -2,12 +2,12 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-//   name: 'TButton',
+  name: 'TButton',
 })
 </script>
 
 <template>
-  <button>按钮</button>
+  <button>按钮1234444</button>
 </template>
 
 <style scoped>

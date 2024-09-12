@@ -11,7 +11,9 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "paths": {
-      "@tov-ui/utils": ["packages/utils/src"]
+      "@tov-ui/utils": ["packages/utils/src"],
+      "tov-ui": ["packages/tov-ui/src"],
+      "tov-ui/*": ["packages/tov-ui/src/*"]
     },
     "allowImportingTsExtensions": true,
 
