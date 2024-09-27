@@ -9,7 +9,7 @@ export default [
     replacement: path.resolve(baseUrl, 'packages/tov-ui/src'),
   },
   {
-    find: /^@tov-ui-learn\/utils/,
+    find: /^@tov-ui-learn-copy\/utils/,
     replacement: path.resolve(baseUrl, 'packages/utils/src'),
   },
 ]

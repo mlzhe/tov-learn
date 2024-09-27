@@ -11,7 +11,7 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "paths": {
-      "@tov-ui-learn/utils": ["packages/utils/src"],
+      "@tov-ui-learn-copy/utils": ["packages/utils/src"],
       "tov-ui": ["packages/tov-ui/src"],
       "tov-ui/*": ["packages/tov-ui/src/*"]
     },

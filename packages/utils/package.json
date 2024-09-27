@@ -1,13 +1,29 @@
 {
-  "name": "@tov-ui-learn/utils",
+  "name": "@tov-ui-learn-copy/utils",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "ISC",
+  "author": "a1345057558 <ismenglz@163.com>",
+  "license": "MIT",
   "keywords": [],
-  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "unbuild"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
   },
   "dependencies": {
     "classnames": "^2.5.1"
