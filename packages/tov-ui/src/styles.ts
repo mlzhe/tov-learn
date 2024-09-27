@@ -1,1 +1,2 @@
-import './button/style/index.scss'
+import './button/style/index.less'
+import './tooltip/style/index.less'

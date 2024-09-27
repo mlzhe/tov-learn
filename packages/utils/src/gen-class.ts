@@ -24,7 +24,7 @@ export function useClassNames(componentName: string) {
             return `${prev}--${arg1}`
         }
         return `${prev}-${cur}`
-      }, componentClass)
+      }, componentClass) as string
     }
     return componentClass
   }
@@ -32,6 +32,11 @@ export function useClassNames(componentName: string) {
   const ce = (e: string) => [e, 'E'] as BEMType
   const cm = (m: string) => [m, 'M'] as BEMType
 
+  /**
+   *
+   * @param cls 一个回调函数 函数返回对象形式
+   * @returns
+   */
   const cx = (cls: () => Record<string, boolean>) => {
     return computed(() => classNames(cls()))
   }

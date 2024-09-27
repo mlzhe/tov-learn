@@ -1,6 +1,7 @@
-import { fileURLToPath } from 'node:url'
+import { useClassNames } from './gen-class'
 
 export function test() {
-  const baseUrl = fileURLToPath(new URL('.', import.meta.url))
-  console.log(baseUrl)
+
 }
+
+export { useClassNames }

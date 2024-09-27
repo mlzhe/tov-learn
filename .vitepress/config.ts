@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
   title: 'tov-ui',
   description: 'this is a vue component library',
   themeConfig: {
@@ -20,6 +21,7 @@ export default defineConfig({
       '/components/': [
         { text: 'button', link: '/components/button/' },
         { text: 'input', link: '/components/input/' },
+        { text: 'tootlTip', link: '/components/tooltip/' },
       ],
       '/utils/': [
         { text: '类名生成器', link: '/utils/gen-class' },
@@ -27,7 +29,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/a1345057558/tov-learn' },
     ],
 
     footer: {

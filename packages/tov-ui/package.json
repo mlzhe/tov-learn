@@ -7,6 +7,12 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build",
+    "build:umd": "vite build --config vite.umd.config.ts",
+    "build:style": "vite build --config vite.style.config.ts"
+  },
+  "dependencies": {
+    "@floating-ui/vue": "^1.1.5",
+    "@v-c/utils": "^0.0.26"
   }
 }

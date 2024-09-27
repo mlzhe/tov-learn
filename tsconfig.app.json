@@ -15,6 +15,9 @@
       "tov-ui": ["packages/tov-ui/src"],
       "tov-ui/*": ["packages/tov-ui/src/*"]
     },
+    "types": [
+      "vitest/globals"
+    ],
     "allowImportingTsExtensions": true,
 
     /* Linting */

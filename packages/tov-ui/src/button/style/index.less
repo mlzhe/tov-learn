@@ -1,0 +1,81 @@
+@import '../../style/theme/vars.less';
+
+.tov-button {
+    background: none;
+    cursor: pointer;
+    border: 1px solid var(--tov-color-border);
+    outline: none;
+    color: inherit;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all .3s;
+    height: 32px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    
+    &-size{
+        &--small {
+            height: 24px;
+            padding: 2px 4px;
+            font-size: 12px;
+        }
+        &--large {
+            height: 40px;
+            padding:6px 12px;
+            font-size: 20px;
+        }
+    }
+
+    &--default {
+        border-color: var(--tov-color-border);
+    }
+
+    &--default:hover {
+        color: var(--tov-color-default-hover);
+        border-color: var(--tov-color-default-hover);
+    }
+
+    &--default:active {
+        color: var(--tov-color-default-active);
+        border-color: var(--tov-color-default-active);
+    }
+
+    &--primary {
+        background: var(--tov-color-primary);
+        color: var(--tov-color-dark-text)
+    }
+    &--primary:hover {
+        background: var(--tov-color-primary-hover);
+        color: var(--tov-color-dark-text)
+    }
+    &--primary:active {
+        background: var(--tov-color-primary-active);
+        color: var(--tov-color-dark-active)
+    }
+    &--warning {
+        background: var(--tov-color-warning);
+        color:var(--tov-color-dark-text)
+    }
+    &--warning:hover {
+        background: var(--tov-color-warning-hover);
+        color:var(--tov-color-dark-text)
+    }
+    &--warning:active {
+        background: var(--tov-color-warning-active);
+        color:var(--tov-color-dark-text)
+    }
+
+
+    &:disabled {
+        cursor: not-allowed;
+        color: #bfbfbf;
+        border-color: #d9d9d9;
+        background: #f0f0f0;
+    }
+}
+
+.tov-button +.tov-button {
+    margin-left: 12px;
+}
+
