@@ -3,7 +3,7 @@ import { computed, createVNode, defineComponent, ref } from 'vue'
 import type { Placement } from '@floating-ui/vue'
 import { offset, useFloating } from '@floating-ui/vue'
 import { filterEmpty, isBaseType } from '@v-c/utils'
-import { useClassNames } from '@tov-ui-learn/utils'
+import { useClassNames } from '@tov-ui-learn-copy/utils'
 
 export default defineComponent({
   name: 'TTooltip',

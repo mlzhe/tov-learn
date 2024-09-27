@@ -1,5 +1,5 @@
 {
-  "name": "tov-ui-learn",
+  "name": "tov-ui-learn-copy",
   "type": "module",
   "version": "1.0.0",
   "description": "this is a vue3 component library",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@floating-ui/vue": "^1.1.5",
-    "@tov-ui-learn/utils": "workspace:*",
+    "@tov-ui-learn-copy/utils": "workspace:*",
     "@v-c/utils": "^0.0.26"
   }
 }

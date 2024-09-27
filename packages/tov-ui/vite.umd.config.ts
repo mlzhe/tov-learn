@@ -14,7 +14,7 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: /^@tov-ui-learn\/utils/,
+        find: /^@tov-ui-learn-copy\/utils/,
         replacement: path.resolve(baseUrl, '../utils/src'),
       },
     ],
