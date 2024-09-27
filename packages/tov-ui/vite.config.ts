@@ -15,7 +15,7 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      external: ['@floating-ui/vue', 'vue', '@v-c/utils', '@tov-ui/utils'],
+      external: ['@floating-ui/vue', 'vue', '@v-c/utils', '@tov-ui-learn/utils'],
       output: [
         {
           preserveModules: true,

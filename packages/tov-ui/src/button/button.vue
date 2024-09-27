@@ -1,7 +1,7 @@
 <script lang="ts">
 import type { PropType } from 'vue'
 import { defineComponent } from 'vue'
-import { useClassNames } from '@tov-ui/utils'
+import { useClassNames } from '@tov-ui-learn/utils'
 
 export default defineComponent({
   name: 'TButton',
