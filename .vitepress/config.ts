@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'tov-ui',
   description: 'this is a vue component library',
   // eslint-disable-next-line node/prefer-global/process
-  base: process.env.NODE_ENV === 'production' ? '/tou-ui/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/tou-learn/' : '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
